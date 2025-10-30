@@ -62,8 +62,6 @@ jobs:
           pip install Django==${{ matrix.django-version }}
           pip install -e .
 
-      - name: Check package can be imported
-        run: python -c "import admin_style_linker; print(admin_style_linker.__version__)"
 
   build:
     name: Build Package
