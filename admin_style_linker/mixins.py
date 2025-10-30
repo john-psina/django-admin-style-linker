@@ -3,7 +3,7 @@ from typing import Any, Dict, List, Optional, Set, Tuple
 
 from django import forms
 from django.conf import settings
-from django.core.exceptions import ImproperlyConfigured
+from django.core.exceptions import FieldDoesNotExist, ImproperlyConfigured
 from django.db import models
 
 try:
@@ -93,7 +93,7 @@ class LinkStyleAdminMixin:
         base_field_name = self._get_base_field_name(field_name, translatable_fields)
         try:
             field_instance = self.model._meta.get_field(base_field_name)
-        except models.FieldDoesNotExist:
+        except FieldDoesNotExist:
             raise ImproperlyConfigured(
                 f"Field '{field_name}' (base: '{base_field_name}') does not exist in model {self.model.__name__}. "
                 f"Check the link_styles configuration in {self.__class__.__name__}."
