@@ -31,8 +31,12 @@ assignees: ''
 ## Code Example (if applicable)
 ```python
 # Example of how the feature might be used
-monaco_field = MonacoField(
+link_styles = [
+    {
+        "styles_field": "content_css",
+        "html_fields": ["content_html"],
+    },
+]
     # new feature here
-)
 ```
 

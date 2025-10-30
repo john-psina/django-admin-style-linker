@@ -1,1 +1,1 @@
-recursive-include django_monaco_editor/templates *
+recursive-include admin_style_linker/templates *

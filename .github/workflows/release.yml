@@ -16,7 +16,7 @@ jobs:
     if: github.repository_owner == 'john-psina'
     environment:
       name: pypi
-      url: https://pypi.org/p/django-admin-monaco-editor
+      url: https://pypi.org/p/django-admin-style-linker
 
     steps:
       - uses: actions/checkout@v5

@@ -1,4 +1,4 @@
-# Contributing to Django Monaco Editor
+# Contributing to Django Admin Style Linker
 
 Thank you for your interest in contributing! 🎉
 
@@ -7,8 +7,8 @@ Thank you for your interest in contributing! 🎉
 1. **Fork the repository**
 2. **Clone your fork:**
    ```bash
-   git clone https://github.com/john-psina/django-monaco-editor.git
-   cd django-monaco-editor
+   git clone https://github.com/john-psina/django-admin-style-linker.git
+   cd django-admin-style-linker
    ```
 
 3. **Create a virtual environment:**
@@ -64,7 +64,7 @@ git commit -m "docs: update installation instructions"
 ```bash
 git commit -m "feat!: redesign widget API
 
-BREAKING CHANGE: MonacoField constructor parameters have changed"
+BREAKING CHANGE: LinkStyleAdminMixin parameters have changed"
 ```
 
 ## 🧪 Testing
@@ -84,7 +84,7 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
-Visit `http://localhost:8000/admin/` and test the Monaco Editor fields.
+Visit `http://localhost:8000/admin/` and test the fields.
 
 ## 🎨 Code Style
 
@@ -95,9 +95,9 @@ We use:
 
 ### Format your code:
 ```bash
-black django_monaco_editor/
-isort django_monaco_editor/
-flake8 django_monaco_editor/
+black admin_style_linker/
+isort admin_style_linker/
+flake8 admin_style_linker/
 ```
 
 ## 📤 Submitting a Pull Request

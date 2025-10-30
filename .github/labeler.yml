@@ -14,10 +14,10 @@ configuration:
   - '.github/**/*'
 
 core:
-  - 'django_monaco_editor/**/*.py'
+  - 'admin_style_linker/**/*.py'
 
 templates:
-  - 'django_monaco_editor/templates/**/*'
+  - 'admin_style_linker/templates/**/*'
 
 tests:
   - '**/*test*.py'

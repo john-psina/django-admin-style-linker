@@ -25,7 +25,7 @@ assignees: ''
 <!-- If applicable, add screenshots to help explain your problem -->
 
 ## Environment
-- **Django Monaco Editor version:** [e.g., 0.0.1]
+- **Django Admin Style Linker version:** [e.g., 0.0.1]
 - **Django version:** [e.g., 5.1]
 - **Python version:** [e.g., 3.11]
 - **Browser:** [e.g., Chrome 120]
