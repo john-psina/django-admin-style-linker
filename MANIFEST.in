@@ -1,1 +1,1 @@
-recursive-include admin_style_linker/templates *
+recursive-include admin_style_linker/static *
